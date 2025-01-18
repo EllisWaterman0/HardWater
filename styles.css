@@ -6,12 +6,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f5f7;
-    color: #16617d;
+    color: #333;
     line-height: 1.6;
 }
 
 header {
-    background-color: #4a4a4a;
+    background-color: #16617d;
     color: #fff;
     text-align: center;
     padding: 2rem 0;
@@ -33,7 +33,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 1.2rem;
-    color: #16617d;
+    color: #4a4a4a;
 }
 
 .image-comparison {
@@ -44,7 +44,7 @@ main {
 
 .image-slot {
     text-align: center;
-    background-color: #16617d;
+    background-color: #e7ebee;
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -59,14 +59,14 @@ main {
 
 .image-slot p {
     font-weight: bold;
-    color: #4a4a4a;
+    color: #16617d;
 }
 
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #4a4a4a;
-    color: #16617d;
+    background-color: #16617d;
+    color: #fff;
     font-size: 0.9rem;
     position: relative;
     bottom: 0;
