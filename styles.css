@@ -5,13 +5,13 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8faff;
+    background-color: #f2f5f7;
     color: #333;
     line-height: 1.6;
 }
 
 header {
-    background-color: #3b5998;
+    background-color: #4a4a4a;
     color: #fff;
     text-align: center;
     padding: 2rem 0;
@@ -37,15 +37,14 @@ main {
 }
 
 .image-comparison {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
 }
 
 .image-slot {
-    flex: 1;
     text-align: center;
-    background-color: #eef3fa;
+    background-color: #e7ebee;
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -60,13 +59,13 @@ main {
 
 .image-slot p {
     font-weight: bold;
-    color: #3b5998;
+    color: #4a4a4a;
 }
 
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #3b5998;
+    background-color: #4a4a4a;
     color: #fff;
     font-size: 0.9rem;
     position: relative;
