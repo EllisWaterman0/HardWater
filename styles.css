@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f5f7;
-    color: #333;
+    color: #16617d;
     line-height: 1.6;
 }
 
@@ -33,7 +33,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 1.2rem;
-    color: #4a4a4a;
+    color: #16617d;
 }
 
 .image-comparison {
@@ -44,7 +44,7 @@ main {
 
 .image-slot {
     text-align: center;
-    background-color: #167fa6;
+    background-color: #16617d;
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -66,7 +66,7 @@ footer {
     text-align: center;
     padding: 1rem;
     background-color: #4a4a4a;
-    color: #fff;
+    color: #16617d;
     font-size: 0.9rem;
     position: relative;
     bottom: 0;
