@@ -72,3 +72,32 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.hours-box {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #4a4a4a;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.8;
+    width: 100%; 
+    box-sizing: border-box;
+    margin: 2rem 0;
+}
+
+.hours-box h2 {
+    color: #16617d;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.hours-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hours-box li {
+    margin-bottom: 0.5rem;
+}
