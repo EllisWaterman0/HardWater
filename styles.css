@@ -59,8 +59,9 @@ main {
     color: #16617d;
 }
 
-/* Shared Box Styles */
-.info-box, .hours-box {
+.info-box,
+.hours-box,
+.pricing-box {
     flex: 1;
     min-width: 250px;
     background-color: #fff;
@@ -75,21 +76,25 @@ main {
     box-sizing: border-box;
 }
 
-.info-box h2, .hours-box h2 {
+.info-box h2,
+.hours-box h2,
+.pricing-box h2 {
     color: #16617d;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-align: center;
 }
 
-.info-box .info-item, .hours-box .hours {
+.info-box .info-item,
+.hours-box .hours {
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 0;
     border-bottom: 1px solid #e7ebee;
 }
 
-.info-box .info-item:last-child, .hours-box .hours:last-child {
+.info-box .info-item:last-child,
+.hours-box .hours:last-child {
     border-bottom: none;
 }
 
@@ -98,14 +103,19 @@ main {
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: space-between;
-    align-items: stretch; /* Ensures boxes align to the tallest one */
+    align-items: stretch;
 }
 
-.info-box, .hours-box {
-    height: 100%; /* Ensures all boxes have the same height */
+.info-box,
+.hours-box,
+.pricing-box {
+    height: 100%;
 }
 
-/* Footer */
+.pricing-box span:first-child {
+    margin-bottom: 1rem;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
@@ -117,7 +127,6 @@ footer {
     width: 100%;
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
     main {
         padding: 1rem;
@@ -128,7 +137,9 @@ footer {
         gap: 1rem;
     }
 
-    .info-box, .hours-box {
+    .info-box,
+    .hours-box,
+    .pricing-box {
         padding: 1rem;
         font-size: 1rem;
     }
